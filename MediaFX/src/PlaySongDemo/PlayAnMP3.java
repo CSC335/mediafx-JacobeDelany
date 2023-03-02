@@ -27,8 +27,10 @@ public class PlayAnMP3 extends Application {
 
   @Override
   public void start(Stage stage) throws Exception {
+	  
+	// I jacobe, think you should listen to club sandwhich by joey valance.  
     BorderPane pane = new BorderPane();
-    String path = "songfiles/Capture.mp3";
+    String path = "songfiles/Club_Sandwhich.mp3";
     pane.setCenter( new Label(path));
     playASong(path);
     // Put the pane in a sized Scene and show the GUI
