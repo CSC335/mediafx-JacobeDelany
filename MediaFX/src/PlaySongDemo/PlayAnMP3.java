@@ -30,7 +30,7 @@ public class PlayAnMP3 extends Application {
 	  
 	// I jacobe, think you should listen to club sandwhich by joey valance.  
     BorderPane pane = new BorderPane();
-    String path = "songfiles/Club_Sandwhich.mp3";
+    String path = "songfiles/SwingCheese.mp3";
     pane.setCenter( new Label(path));
     playASong(path);
     // Put the pane in a sized Scene and show the GUI
